@@ -54,7 +54,7 @@ Prepare the database from Guacamole. MySQL client will prompt you for the root p
 mysql -u root -p
 mysql> CREATE DATABASE guacamole_db;
 mysql> CREATE USER 'guacamole_user'@'localhost' IDENTIFIED BY 'StrongPasswordHere';
-mysql> GRANT SELECT,INSERT,UPDATE,DELETE ON guacamole\_db.* TO 'guacamole_user'@'localhost';
+mysql> GRANT SELECT,INSERT,UPDATE,DELETE ON guacamole\db.* TO 'guacamole_user'@'localhost';
 mysql> FLUSH PRIVILEGES;
 ```
 Install the JDBC driver for mariadb and link it to Guacamole configuration directory:
