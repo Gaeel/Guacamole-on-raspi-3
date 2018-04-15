@@ -3,16 +3,16 @@
 
 Download and unzip Raspbian Strech Lite:
 ```bash
-$ wget https://downloads.raspberrypi.org/raspbian_lite_latest
-$ unzip 20??-??-??-raspbian-stretch-lite.zip
+wget https://downloads.raspberrypi.org/raspbian_lite_latest
+unzip 20??-??-??-raspbian-stretch-lite.zip
 ```
 Insert an SD card, and burn the .img file on it:
 ```bash
-$ sudo dd bs=4M if=20??-??-??-raspbian-stretch-lite.img of=/dev/yourDevice conv=fsync
+sudo dd bs=4M if=20??-??-??-raspbian-stretch-lite.img of=/dev/yourDevice conv=fsync
 ```
 Mount the boot partition, and create the 'ssh' file into it:
  ```bash
-$ touch ssh
+touch ssh
 ```
 Umount the SD card, plug in into your raspberry pi, and power it on. Make sure to connect the raspi to your LAN using the Ethernet interface.
 
