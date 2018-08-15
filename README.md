@@ -1,2 +1,2 @@
 # Guacamole-on-raspi-3
-Install guide for Apache Guacamole on Rapberry Pi 3 (Install.md)
+Install guide on [Install.md](https://github.com/Gaeel/Guacamole-on-raspi-3/blob/master/Install.md)
